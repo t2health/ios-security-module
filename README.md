@@ -116,6 +116,20 @@ NSBundle *bundle = [NSBundle mainBundle];
         if(z==0 && ![IosAppCheck_iPhone l]) z = 7;
 
     #endif
+if (z !=0) {
+// iOSAppCheck caught something.  attach appdelegate to blank viewcontroller.
+    	UIViewController *vc = [[UIViewController alloc] init];
+    	UIView *v = [[UIView alloc] initWithFrame:self.window.frame];
+    	[vc.view addSubview:v];
+    	v.backgroundColor = [UIColor clearColor];
+    	self.window.backgroundColor = [UIColor clearColor];
+    	self.window.rootViewController = vc;
+    	self.navigationController.delegate =self;
+   	 
+    	[self.window makeKeyAndVisible];
+    	return YES;
+}
+
 ```
 
 The following gets added by going to the target and clicking on the “+ Add Build Phase” at the bottom right of the screen and selecting “Add Run Script”:
