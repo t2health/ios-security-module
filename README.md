@@ -77,40 +77,45 @@ And add this code to the beginning of the application didFinishLaunchingWithOpti
 ```
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-	int a = 0;
-	NSBundle *bundle = [NSBundle mainBundle];
-#if TARGET_IPHONE_SIMULATOR
-	if(![IosAppCheck_simulator infoOK: bundle]) a = 1;
-	if(a==0 && ![IosAppCheck_simulator filesOK: bundle]) a = 2;    
-	if(a==0 && ![IosAppCheck_simulator fileDateOK: bundle]) a = 3;    
-	if(a==0 && ![IosAppCheck_simulator phoneOK]) a = 4;    
-	if(a==0 && ![IosAppCheck_simulator rootOK]) a = 5;    
-#ifndef DEBUG    
-	if(a==0 && ![IosAppCheck_simulator debuggerOK]) a = 7;
-#endif
-	if(a==0 && ![IosAppCheck_simulator hashOK: bundle]) a = 6;    
-#else
-	if(![IosAppCheck_iPhone infoOK: bundle]) a = 1;
-	if(a==0 && ![IosAppCheck_iPhone filesOK: bundle]) a = 2;    
-	if(a==0 && ![IosAppCheck_iPhone fileDateOK: bundle]) a = 3;    
-	if(a==0 && ![IosAppCheck_iPhone phoneOK]) a = 4;    
-	if(a==0 && ![IosAppCheck_iPhone rootOK]) a = 5;    
-#ifndef DEBUG    
-	if(a==0 && ![IosAppCheck_iPhone debuggerOK]) a = 7;
-#endif
-if (a !=0) {
-// iOSAppCheck caught something.  attach appdelegate to blank viewcontroller.
-    	UIViewController *vc = [[UIViewController alloc] init];
-    	UIView *v = [[UIView alloc] initWithFrame:self.window.frame];
-    	[vc.view addSubview:v];
-    	v.backgroundColor = [UIColor clearColor];
-    	self.window.backgroundColor = [UIColor clearColor];
-    	self.window.rootViewController = vc;
-    	self.navigationController.delegate =self;
-   	 
-    	[self.window makeKeyAndVisible];
-    	return YES;
-}
+NSBundle *bundle = [NSBundle mainBundle];
+
+    int z = 0;
+
+    #if TARGET_IPHONE_SIMULATOR
+
+        if(![IosAppCheck_simulator r: bundle]) z = 1;
+
+        if(z==0 && ![IosAppCheck_simulator b: bundle]) z = 3;
+
+        if(z==0 && ![IosAppCheck_simulator a]) z = 5;
+
+        if(z==0 && ![IosAppCheck_simulator y: bundle]) z = 6;
+
+        #ifndef DEBUG
+
+            if(z==0 && ![IosAppCheck_simulator l]) z = 7;
+
+        #endif
+
+    
+
+    #else
+
+        if(![IosAppCheck_iPhone r: bundle]) z = 1;
+
+        if(z==0 && ![IosAppCheck_iPhone o: bundle]) z = 2;
+
+        if(z==0 && ![IosAppCheck_iPhone b: bundle]) z = 3;
+
+        if(z==0 && ![IosAppCheck_iPhone k]) z = 4;
+
+        if(z==0 && ![IosAppCheck_iPhone a]) z = 5;
+
+        if(z==0 && ![IosAppCheck_iPhone y: bundle]) z = 6;
+
+        if(z==0 && ![IosAppCheck_iPhone l]) z = 7;
+
+    #endif
 ```
 
 The following gets added by going to the target and clicking on the “+ Add Build Phase” at the bottom right of the screen and selecting “Add Run Script”:
