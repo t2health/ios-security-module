@@ -64,11 +64,14 @@ Copy the Hash binary file to a location of your choosing, but be sure to know th
 
 Implement the checker in the app delegate.
 Include the headers files based on whether it’s running on the simulator or not.
+
+```
 #if TARGET_IPHONE_SIMULATOR
   #import "IosAppCheck-simulator.h"
 #else
 	#import "IosAppCheck-iPhone.h"
 #endif
+```
 
 And add this code to the beginning of the application didFinishLaunchingWithOptions.
 ```
@@ -109,9 +112,20 @@ if (a !=0) {
     	return YES;
 }
 ```
-…. rest of method
 
 The following gets added by going to the target and clicking on the “+ Add Build Phase” at the bottom right of the screen and selecting “Add Run Script”:
 ```
 "${PROJECT_DIR}/${PRODUCT_NAME}/Hash" "${PROJECT_DIR}/${PRODUCT_NAME}/${PRODUCT_NAME}-Info.plist" "${TARGET_BUILD_DIR}/${PRODUCT_NAME}.app/Info.plist"
 ```
+
+NOTE: Put the Hash binary in ${PROJECT_DIR}/${PRODUCT_NAME} But do not add it to the project, you do not want it being added to the bundle when you build the project.
+
+Select “Build” twice to make sure.
+To know that it worked, you will get “Build Succeeded” both times and see a FileID in the <PROJECT_NAME>-Info.plist.
+
+
+
+XCode Setup for Projects
+--------------------------
+Under the build setting of the project, set the Deployment Postprocessing and Strip Linked Product values to YES. Both must be set for debugging references to be removed from the application binary. This makes the job tougher to debug a binary.		
+
