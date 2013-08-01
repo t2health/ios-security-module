@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		40FC0CFB1663FFBB005CD149 /* libIosAppCheck-v2.0 */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 40FC0CFC1663FFBB005CD149 /* Build configuration list for PBXAggregateTarget "libIosAppCheck-v2.0" */;
+			buildPhases = (
+				40FC0CFF1663FFCB005CD149 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "libIosAppCheck-v2.0";
+			productName = libIosAppCheckV2.0;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		403A83B4142520D700961A55 /* IosAppCheck-iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 403A83B3142520D700961A55 /* IosAppCheck-iPhone.m */; };
+		403A83CF142522C100961A55 /* IosAppCheck-iPhone.h in Headers */ = {isa = PBXBuildFile; fileRef = 403A83B2142520D700961A55 /* IosAppCheck-iPhone.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		403A83DF1425246800961A55 /* IosAppCheck-simulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 403A83DE1425246800961A55 /* IosAppCheck-simulator.m */; };
+		403A83E3142524B300961A55 /* IosAppCheck-simulator.h in Headers */ = {isa = PBXBuildFile; fileRef = 403A83DD1425246800961A55 /* IosAppCheck-simulator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		403A83AA142520D700961A55 /* libIosAppCheck-iPhone.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libIosAppCheck-iPhone.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		403A83B1142520D700961A55 /* IosAppCheck-iPhone-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IosAppCheck-iPhone-Prefix.pch"; sourceTree = "<group>"; };
+		403A83B2142520D700961A55 /* IosAppCheck-iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IosAppCheck-iPhone.h"; sourceTree = "<group>"; };
+		403A83B3142520D700961A55 /* IosAppCheck-iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "IosAppCheck-iPhone.m"; sourceTree = "<group>"; };
+		403A83D81425246800961A55 /* libIosAppCheck-simulator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libIosAppCheck-simulator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		403A83DC1425246800961A55 /* IosAppCheck-simulator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IosAppCheck-simulator-Prefix.pch"; sourceTree = "<group>"; };
+		403A83DD1425246800961A55 /* IosAppCheck-simulator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IosAppCheck-simulator.h"; sourceTree = "<group>"; };
+		403A83DE1425246800961A55 /* IosAppCheck-simulator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "IosAppCheck-simulator.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		403A83A7142520D700961A55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		403A83D51425246800961A55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		403A839F142520D700961A55 = {
+			isa = PBXGroup;
+			children = (
+				403A83AF142520D700961A55 /* IosAppCheck-iPhone */,
+				403A83DA1425246800961A55 /* IosAppCheck-simulator */,
+				403A83AB142520D700961A55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		403A83AB142520D700961A55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				403A83AA142520D700961A55 /* libIosAppCheck-iPhone.a */,
+				403A83D81425246800961A55 /* libIosAppCheck-simulator.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		403A83AF142520D700961A55 /* IosAppCheck-iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				403A83B2142520D700961A55 /* IosAppCheck-iPhone.h */,
+				403A83B3142520D700961A55 /* IosAppCheck-iPhone.m */,
+				403A83B0142520D700961A55 /* Supporting Files */,
+			);
+			path = "IosAppCheck-iPhone";
+			sourceTree = "<group>";
+		};
+		403A83B0142520D700961A55 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				403A83B1142520D700961A55 /* IosAppCheck-iPhone-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		403A83DA1425246800961A55 /* IosAppCheck-simulator */ = {
+			isa = PBXGroup;
+			children = (
+				403A83DD1425246800961A55 /* IosAppCheck-simulator.h */,
+				403A83DE1425246800961A55 /* IosAppCheck-simulator.m */,
+				403A83DB1425246800961A55 /* Supporting Files */,
+			);
+			path = "IosAppCheck-simulator";
+			sourceTree = "<group>";
+		};
+		403A83DB1425246800961A55 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				403A83DC1425246800961A55 /* IosAppCheck-simulator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		403A83A8142520D700961A55 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403A83CF142522C100961A55 /* IosAppCheck-iPhone.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		403A83D61425246800961A55 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403A83E3142524B300961A55 /* IosAppCheck-simulator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		403A83A9142520D700961A55 /* IosAppCheck-iPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 403A83B7142520D700961A55 /* Build configuration list for PBXNativeTarget "IosAppCheck-iPhone" */;
+			buildPhases = (
+				403A83A6142520D700961A55 /* Sources */,
+				403A83A7142520D700961A55 /* Frameworks */,
+				403A83A8142520D700961A55 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IosAppCheck-iPhone";
+			productName = "IosAppCheck-iPhone";
+			productReference = 403A83AA142520D700961A55 /* libIosAppCheck-iPhone.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		403A83D71425246800961A55 /* IosAppCheck-simulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 403A83E01425246800961A55 /* Build configuration list for PBXNativeTarget "IosAppCheck-simulator" */;
+			buildPhases = (
+				403A83D41425246800961A55 /* Sources */,
+				403A83D51425246800961A55 /* Frameworks */,
+				403A83D61425246800961A55 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IosAppCheck-simulator";
+			productName = "IosAppCheck-simulator";
+			productReference = 403A83D81425246800961A55 /* libIosAppCheck-simulator.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		403A83A1142520D700961A55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = T2;
+			};
+			buildConfigurationList = 403A83A4142520D700961A55 /* Build configuration list for PBXProject "IosAppCheck-iPhone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 403A839F142520D700961A55;
+			productRefGroup = 403A83AB142520D700961A55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				403A83A9142520D700961A55 /* IosAppCheck-iPhone */,
+				403A83D71425246800961A55 /* IosAppCheck-simulator */,
+				40FC0CFB1663FFBB005CD149 /* libIosAppCheck-v2.0 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		40FC0CFF1663FFCB005CD149 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "lipo -create \"${BUILT_PRODUCTS_DIR}/../Release-iphonesimulator/libIosAppCheck-simulator.a\" \\\n\"${BUILT_PRODUCTS_DIR}/libIosAppCheck-iphone.a\" -output \\\n\"${BUILT_PRODUCTS_DIR}/libIosAppCheck-v2.0.a\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		403A83A6142520D700961A55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403A83B4142520D700961A55 /* IosAppCheck-iPhone.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		403A83D41425246800961A55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403A83DF1425246800961A55 /* IosAppCheck-simulator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		403A83B5142520D700961A55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Bob Kayl (B3LTADQ37D)";
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PROVISIONING_PROFILE = "AE4E2CDD-3E80-42D8-899C-C79C388012D3";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		403A83B6142520D700961A55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Bob Kayl (B3LTADQ37D)";
+				COPY_PHASE_STRIP = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PROVISIONING_PROFILE = "AE4E2CDD-3E80-42D8-899C-C79C388012D3";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		403A83B8142520D700961A55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/IosAppCheck_iPhone.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IosAppCheck-iPhone/IosAppCheck-iPhone-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SEPARATE_STRIP = YES;
+				SKIP_INSTALL = YES;
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = debugging;
+			};
+			name = Debug;
+		};
+		403A83B9142520D700961A55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/IosAppCheck_iPhone.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IosAppCheck-iPhone/IosAppCheck-iPhone-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SEPARATE_STRIP = YES;
+				SKIP_INSTALL = YES;
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = debugging;
+			};
+			name = Release;
+		};
+		403A83E11425246800961A55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Bob Kayl (B3LTADQ37D)";
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/IosAppCheck_simulator.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IosAppCheck-simulator/IosAppCheck-simulator-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				"GCC_PREPROCESSOR_DEFINITIONS[sdk=iphonesimulator*]" = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "AE4E2CDD-3E80-42D8-899C-C79C388012D3";
+				SEPARATE_STRIP = YES;
+				SKIP_INSTALL = YES;
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = debugging;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		403A83E21425246800961A55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Bob Kayl (B3LTADQ37D)";
+				DSTROOT = /tmp/IosAppCheck_simulator.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IosAppCheck-simulator/IosAppCheck-simulator-Prefix.pch";
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "AE4E2CDD-3E80-42D8-899C-C79C388012D3";
+				SEPARATE_STRIP = YES;
+				SKIP_INSTALL = YES;
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = debugging;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		40FC0CFD1663FFBB005CD149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		40FC0CFE1663FFBB005CD149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		403A83A4142520D700961A55 /* Build configuration list for PBXProject "IosAppCheck-iPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				403A83B5142520D700961A55 /* Debug */,
+				403A83B6142520D700961A55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		403A83B7142520D700961A55 /* Build configuration list for PBXNativeTarget "IosAppCheck-iPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				403A83B8142520D700961A55 /* Debug */,
+				403A83B9142520D700961A55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		403A83E01425246800961A55 /* Build configuration list for PBXNativeTarget "IosAppCheck-simulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				403A83E11425246800961A55 /* Debug */,
+				403A83E21425246800961A55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40FC0CFC1663FFBB005CD149 /* Build configuration list for PBXAggregateTarget "libIosAppCheck-v2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40FC0CFD1663FFBB005CD149 /* Debug */,
+				40FC0CFE1663FFBB005CD149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 403A83A1142520D700961A55 /* Project object */;
+}

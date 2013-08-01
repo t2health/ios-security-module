@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'IosAppCheck-simulator' target in the 'IosAppCheck-simulator' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

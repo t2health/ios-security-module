@@ -1,0 +1,97 @@
+THash
+v5
+r1
+cCheck dependencies
+cProcessPCH "/Users/reason/Desktop/iOS Security Module/Hash/DerivedData/Hash/Build/Intermediates/PrecompiledHeaders/Hash-Prefix-ancixzusbakjzwfccysczqyfaskt/Hash-Prefix.pch.pth" Hash/Hash-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Hash/Build/Intermediates/Hash.build/Debug/Hash.build/Objects-normal/x86_64/main.o "/Users/reason/Desktop/iOS Security Module/Hash/Hash/main.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Users/reason/Desktop/iOS Security Module/Hash/DerivedData/Hash/Build/Products/Debug/Hash" normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c0000000051C0B64000000000000000AA
+t1371584064
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000514336B200000000000C4BAC
+t1363359410
+s805804
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000005078749B00000000000015F7
+t1350071451
+s5623
+
+N/Users/reason/Desktop/iOS Security Module/Hash/DerivedData/Hash/Build/Intermediates/Hash.build/Debug/Hash.build/Objects-normal/x86_64/Hash.LinkFileList
+c0000000051E98F43000000000000008D
+t1374261059
+s141
+
+N/Users/reason/Desktop/iOS Security Module/Hash/DerivedData/Hash/Build/Intermediates/Hash.build/Debug/Hash.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/reason/Desktop/iOS Security Module/Hash/DerivedData/Hash/Build/Intermediates/PrecompiledHeaders/Hash-Prefix-ancixzusbakjzwfccysczqyfaskt/Hash-Prefix.pch.pth
+t2
+s0
+
+N/Users/reason/Desktop/iOS Security Module/Hash/DerivedData/Hash/Build/Products/Debug/Hash
+t2
+s0
+
+N/Users/reason/Desktop/iOS Security Module/Hash/Hash/Hash-Prefix.pch
+c0000000051E97C500000000000000095
+t1374256208
+s149
+i<Foundation/Foundation.h>
+
+N/Users/reason/Desktop/iOS Security Module/Hash/Hash/main.m
+c0000000051E97C700000000000000655
+t1374256240
+s1621
+
+CBuild AST from "/Users/reason/Desktop/iOS Security Module/Hash/Hash/main.m"
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies5c213cc3c699b741^dbc441c3c699b741^---0#1#0#--18"Check dependencies36"8D31A176-D21A-419D-95C2-99A4EED88FAC-
+
+CCompileC DerivedData/Hash/Build/Intermediates/Hash.build/Debug/Hash.build/Objects-normal/x86_64/main.o "/Users/reason/Desktop/iOS Security Module/Hash/Hash/main.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s395953859.729239
+e395953859.838245
+r1
+xCompileC
+xDerivedData/Hash/Build/Intermediates/Hash.build/Debug/Hash.build/Objects-normal/x86_64/main.o
+x/Users/reason/Desktop/iOS Security Module/Hash/Hash/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/reason/Desktop/iOS Security Module/Hash/Hash/main.m50c4bac3c699b741^c496d6c3c699b741^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/reason/Desktop/iOS%20Security%20Module/Hash/Hash/main.m0000000000000000^3343"CompileC DerivedData/Hash/Build/Intermediates/Hash.build/Debug/Hash.build/Objects-normal/x86_64/main.o Hash/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/reason/Desktop/iOS Security Module/Hash"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote "/Users/reason/Desktop/iOS Security Module/Hash/DerivedData/Hash/Build/Intermediates/Hash.build/Debug/Hash.build/Hash-generated-files.hmap" "-I/Users/reason/Desktop/iOS Security Module/Hash/DerivedData/Hash/Build/Intermediates/Hash.build/Debug/Hash.build/Hash-own-target-headers.hmap" "-I/Users/reason/Desktop/iOS Security Module/Hash/DerivedData/Hash/Build/Intermediates/Hash.build/Debug/Hash.build/Hash-all-target-headers.hmap" -iquote "/Users/reason/Desktop/iOS Security Module/Hash/DerivedData/Hash/Build/Intermediates/Hash.build/Debug/Hash.build/Hash-project-headers.hmap" "-I/Users/reason/Desktop/iOS Security Module/Hash/DerivedData/Hash/Build/Products/Debug/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/reason/Desktop/iOS Security Module/Hash/DerivedData/Hash/Build/Intermediates/Hash.build/Debug/Hash.build/DerivedSources/x86_64" "-I/Users/reason/Desktop/iOS Security Module/Hash/DerivedData/Hash/Build/Intermediates/Hash.build/Debug/Hash.build/DerivedSources" "-F/Users/reason/Desktop/iOS Security Module/Hash/DerivedData/Hash/Build/Products/Debug" -include "/Users/reason/Desktop/iOS Security Module/Hash/DerivedData/Hash/Build/Intermediates/PrecompiledHeaders/Hash-Prefix-ancixzusbakjzwfccysczqyfaskt/Hash-Prefix.pch" -MMD -MT dependencies -MF "/Users/reason/Desktop/iOS Security Module/Hash/DerivedData/Hash/Build/Intermediates/Hash.build/Debug/Hash.build/Objects-normal/x86_64/main.d" --serialize-diagnostics "/Users/reason/Desktop/iOS Security Module/Hash/DerivedData/Hash/Build/Intermediates/Hash.build/Debug/Hash.build/Objects-normal/x86_64/main.dia" -c "/Users/reason/Desktop/iOS Security Module/Hash/Hash/main.m" -o "/Users/reason/Desktop/iOS Security Module/Hash/DerivedData/Hash/Build/Intermediates/Hash.build/Debug/Hash.build/Objects-normal/x86_64/main.o"36"1378C8E2-6F9A-4F91-9B23-D26F28013844-
+
+CLd "/Users/reason/Desktop/iOS Security Module/Hash/DerivedData/Hash/Build/Products/Debug/Hash" normal x86_64
+s395953859.845119
+e395953859.964734
+r1
+xLd
+x/Users/reason/Desktop/iOS Security Module/Hash/DerivedData/Hash/Build/Products/Debug/Hash
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Link /Users/reason/Desktop/iOS Security Module/Hash/DerivedData/Hash/Build/Products/Debug/Hasha16ad8c3c699b741^59f8f6c3c699b741^---0#0#0#--881"Ld DerivedData/Hash/Build/Products/Debug/Hash normal x86_64    cd "/Users/reason/Desktop/iOS Security Module/Hash"    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk "-L/Users/reason/Desktop/iOS Security Module/Hash/DerivedData/Hash/Build/Products/Debug" "-F/Users/reason/Desktop/iOS Security Module/Hash/DerivedData/Hash/Build/Products/Debug" -filelist "/Users/reason/Desktop/iOS Security Module/Hash/DerivedData/Hash/Build/Intermediates/Hash.build/Debug/Hash.build/Objects-normal/x86_64/Hash.LinkFileList" -mmacosx-version-min=10.8 -fobjc-link-runtime -framework Foundation -o "/Users/reason/Desktop/iOS Security Module/Hash/DerivedData/Hash/Build/Products/Debug/Hash"36"E744A577-D761-48F4-87FE-B282CD80813E-
+
+CProcessPCH "/Users/reason/Desktop/iOS Security Module/Hash/DerivedData/Hash/Build/Intermediates/PrecompiledHeaders/Hash-Prefix-ancixzusbakjzwfccysczqyfaskt/Hash-Prefix.pch.pth" Hash/Hash-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s395953859.259705
+e395953859.722382
+r1
+xProcessPCH
+x/Users/reason/Desktop/iOS Security Module/Hash/DerivedData/Hash/Build/Intermediates/PrecompiledHeaders/Hash-Prefix-ancixzusbakjzwfccysczqyfaskt/Hash-Prefix.pch.pth
+xHash/Hash-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile Hash/Hash-Prefix.pchcd9042c3c699b741^7ceeb8c3c699b741^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/reason/Desktop/iOS%20Security%20Module/Hash/Hash/Hash-Prefix.pch0000000000000000^3287"ProcessPCH DerivedData/Hash/Build/Intermediates/PrecompiledHeaders/Hash-Prefix-ancixzusbakjzwfccysczqyfaskt/Hash-Prefix.pch.pth Hash/Hash-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/reason/Desktop/iOS Security Module/Hash"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote "/Users/reason/Desktop/iOS Security Module/Hash/DerivedData/Hash/Build/Intermediates/Hash.build/Debug/Hash.build/Hash-generated-files.hmap" "-I/Users/reason/Desktop/iOS Security Module/Hash/DerivedData/Hash/Build/Intermediates/Hash.build/Debug/Hash.build/Hash-own-target-headers.hmap" "-I/Users/reason/Desktop/iOS Security Module/Hash/DerivedData/Hash/Build/Intermediates/Hash.build/Debug/Hash.build/Hash-all-target-headers.hmap" -iquote "/Users/reason/Desktop/iOS Security Module/Hash/DerivedData/Hash/Build/Intermediates/Hash.build/Debug/Hash.build/Hash-project-headers.hmap" "-I/Users/reason/Desktop/iOS Security Module/Hash/DerivedData/Hash/Build/Products/Debug/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/reason/Desktop/iOS Security Module/Hash/DerivedData/Hash/Build/Intermediates/Hash.build/Debug/Hash.build/DerivedSources/x86_64" "-I/Users/reason/Desktop/iOS Security Module/Hash/DerivedData/Hash/Build/Intermediates/Hash.build/Debug/Hash.build/DerivedSources" "-F/Users/reason/Desktop/iOS Security Module/Hash/DerivedData/Hash/Build/Products/Debug" --serialize-diagnostics "/Users/reason/Desktop/iOS Security Module/Hash/DerivedData/Hash/Build/Intermediates/PrecompiledHeaders/Hash-Prefix-ancixzusbakjzwfccysczqyfaskt/Hash-Prefix.pch.dia" -c "/Users/reason/Desktop/iOS Security Module/Hash/Hash/Hash-Prefix.pch" -o "/Users/reason/Desktop/iOS Security Module/Hash/DerivedData/Hash/Build/Intermediates/PrecompiledHeaders/Hash-Prefix-ancixzusbakjzwfccysczqyfaskt/Hash-Prefix.pch.pth" -MMD -MT dependencies -MF "/Users/reason/Desktop/iOS Security Module/Hash/DerivedData/Hash/Build/Intermediates/PrecompiledHeaders/Hash-Prefix-ancixzusbakjzwfccysczqyfaskt/Hash-Prefix.pch.d"36"96896207-0806-4796-A5BD-BEB262FEEF6B-
+
+CProcessPCH "/Users/reason/Desktop/iOS Security Module/Hash/DerivedData/Hash/Index/PrecompiledHeaders/Hash-Prefix-fmshucwjcjipmbevavtrwsfkzjal_ast/Hash-Prefix.pch.pth" Hash/Hash-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+

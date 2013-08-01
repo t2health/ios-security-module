@@ -1,0 +1,183 @@
+TIosAppCheck-iPhone
+v5
+r1
+cCheck dependencies
+cProcessPCH "/Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone/DerivedData/IosAppCheck-iPhone/Build/Intermediates/PrecompiledHeaders/IosAppCheck-iPhone-Prefix-hlajmhlcfjgezlchivrstjsxyipd/IosAppCheck-iPhone-Prefix.pch.gch" IosAppCheck-iPhone/IosAppCheck-iPhone-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/IosAppCheck-iPhone/Build/Intermediates/IosAppCheck-iPhone.build/Debug-iphonesimulator/IosAppCheck-iPhone.build/Objects-normal/i386/IosAppCheck-iPhone.o "/Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone/IosAppCheck-iPhone/IosAppCheck-iPhone.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+cLibtool "/Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone/DerivedData/IosAppCheck-iPhone/Build/Products/Debug-iphonesimulator/libIosAppCheck-iPhone.a" normal i386
+cCpHeader IosAppCheck-iPhone/IosAppCheck-iPhone.h DerivedData/IosAppCheck-iPhone/Build/Products/Debug-iphonesimulator/usr/local/include/IosAppCheck-iPhone.h
+cStrip "/Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone/DerivedData/IosAppCheck-iPhone/Build/Products/Debug-iphonesimulator/libIosAppCheck-iPhone.a"
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
+c0000000051C0B6730000000000000110
+t1371584115
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c00000000511BFD8F00000000000015F7
+t1360788879
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c00000000511BFD900000000000000E8D
+t1360788880
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/include/CommonCrypto/CommonDigest.h
+c00000000511BFD960000000000002D96
+t1360788886
+s11670
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/include/assert.h
+c00000000511BFD960000000000000F6E
+t1360788886
+s3950
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/include/dlfcn.h
+c00000000511BFD960000000000000B1C
+t1360788886
+s2844
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/include/fcntl.h
+c00000000511BFD9600000000000003EA
+t1360788886
+s1002
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/include/mach-o/dyld.h
+c00000000511BFD960000000000003CB6
+t1360788886
+s15542
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/include/sys/sysctl.h
+c00000000511BFD960000000000007DBD
+t1360788886
+s32189
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/include/sys/types.h
+c00000000511BFD960000000000002795
+t1360788886
+s10133
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/include/unistd.h
+c00000000511BFD960000000000006764
+t1360788886
+s26468
+
+N/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/stdbool.h
+c000000005078749D0000000000000644
+t1350071453
+s1604
+
+N/Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone/DerivedData/IosAppCheck-iPhone/Build/Intermediates/IosAppCheck-iPhone.build/Debug-iphonesimulator/IosAppCheck-iPhone.build/Objects-normal/i386/IosAppCheck-iPhone.LinkFileList
+c0000000051E98A1700000000000000E1
+t1374259735
+s225
+
+N/Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone/DerivedData/IosAppCheck-iPhone/Build/Intermediates/IosAppCheck-iPhone.build/Debug-iphonesimulator/IosAppCheck-iPhone.build/Objects-normal/i386/IosAppCheck-iPhone.o
+t2
+s0
+
+N/Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone/DerivedData/IosAppCheck-iPhone/Build/Intermediates/PrecompiledHeaders/IosAppCheck-iPhone-Prefix-hlajmhlcfjgezlchivrstjsxyipd/IosAppCheck-iPhone-Prefix.pch.gch
+t2
+s0
+
+N/Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone/DerivedData/IosAppCheck-iPhone/Build/Products/Debug-iphonesimulator/libIosAppCheck-iPhone.a
+t2
+s0
+
+N/Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone/DerivedData/IosAppCheck-iPhone/Build/Products/Debug-iphonesimulator/usr/local/include/IosAppCheck-iPhone.h
+t2
+s0
+
+N/Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone/IosAppCheck-iPhone/IosAppCheck-iPhone-Prefix.pch
+c000000004E74E95600000000000000B1
+t1316284758
+s177
+i<Foundation/Foundation.h>
+
+N/Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone/IosAppCheck-iPhone/IosAppCheck-iPhone.h
+c0000000050B3AFB4000000000000017B
+t1353953204
+s379
+i<Foundation/Foundation.h>
+
+N/Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone/IosAppCheck-iPhone/IosAppCheck-iPhone.m
+c0000000051E974100000000000001B1B
+t1374254096
+s6939
+i"IosAppCheck-iPhone.h"
+i<UIKit/UIKit.h>
+i<dlfcn.h>
+i<mach-o/dyld.h>
+i<fcntl.h>
+i<CommonCrypto/CommonDigest.h>
+i<assert.h>
+i<stdbool.h>
+i<sys/types.h>
+i<unistd.h>
+i<sys/sysctl.h>
+
+CBuild AST from "/Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone/IosAppCheck-iPhone/IosAppCheck-iPhone.m"
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciese620b497c199b741^07f0ba97c199b741^---0#1#0#--18"Check dependencies36"2253E20A-6BD1-45FF-BE85-752F63316552-
+
+CCompileC DerivedData/IosAppCheck-iPhone/Build/Intermediates/IosAppCheck-iPhone.build/Debug-iphonesimulator/IosAppCheck-iPhone.build/Objects-normal/i386/IosAppCheck-iPhone.o "/Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone/IosAppCheck-iPhone/IosAppCheck-iPhone.m" normal i386 objective-c com.apple.compilers.llvmgcc42
+s395952535.997357
+e395952536.116699
+r1
+xCompileC
+xDerivedData/IosAppCheck-iPhone/Build/Intermediates/IosAppCheck-iPhone.build/Debug-iphonesimulator/IosAppCheck-iPhone.build/Objects-normal/i386/IosAppCheck-iPhone.o
+x/Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone/IosAppCheck-iPhone/IosAppCheck-iPhone.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compile /Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone/IosAppCheck-iPhone/IosAppCheck-iPhone.m8481ff97c199b741^01df1d98c199b741^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/reason/Desktop/iOS%20Security%20Module/IosAppCheck-iPhone/IosAppCheck-iPhone/IosAppCheck-iPhone.m0000000000000000^3557"CompileC DerivedData/IosAppCheck-iPhone/Build/Intermediates/IosAppCheck-iPhone.build/Debug-iphonesimulator/IosAppCheck-iPhone.build/Objects-normal/i386/IosAppCheck-iPhone.o IosAppCheck-iPhone/IosAppCheck-iPhone.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd "/Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone/DerivedData/IosAppCheck-iPhone/Build/Intermediates/IosAppCheck-iPhone.build/Debug-iphonesimulator/IosAppCheck-iPhone.build/IosAppCheck-iPhone-generated-files.hmap" "-I/Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone/DerivedData/IosAppCheck-iPhone/Build/Intermediates/IosAppCheck-iPhone.build/Debug-iphonesimulator/IosAppCheck-iPhone.build/IosAppCheck-iPhone-own-target-headers.hmap" "-I/Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone/DerivedData/IosAppCheck-iPhone/Build/Intermediates/IosAppCheck-iPhone.build/Debug-iphonesimulator/IosAppCheck-iPhone.build/IosAppCheck-iPhone-all-target-headers.hmap" -iquote "/Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone/DerivedData/IosAppCheck-iPhone/Build/Intermediates/IosAppCheck-iPhone.build/Debug-iphonesimulator/IosAppCheck-iPhone.build/IosAppCheck-iPhone-project-headers.hmap" "-I/Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone/DerivedData/IosAppCheck-iPhone/Build/Products/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone/DerivedData/IosAppCheck-iPhone/Build/Intermediates/IosAppCheck-iPhone.build/Debug-iphonesimulator/IosAppCheck-iPhone.build/DerivedSources/i386" "-I/Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone/DerivedData/IosAppCheck-iPhone/Build/Intermediates/IosAppCheck-iPhone.build/Debug-iphonesimulator/IosAppCheck-iPhone.build/DerivedSources" "-F/Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone/DerivedData/IosAppCheck-iPhone/Build/Products/Debug-iphonesimulator" -include "/Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone/DerivedData/IosAppCheck-iPhone/Build/Intermediates/PrecompiledHeaders/IosAppCheck-iPhone-Prefix-hlajmhlcfjgezlchivrstjsxyipd/IosAppCheck-iPhone-Prefix.pch" -c "/Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone/IosAppCheck-iPhone/IosAppCheck-iPhone.m" -o "/Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone/DerivedData/IosAppCheck-iPhone/Build/Intermediates/IosAppCheck-iPhone.build/Debug-iphonesimulator/IosAppCheck-iPhone.build/Objects-normal/i386/IosAppCheck-iPhone.o"36"21FF7DC7-1D0A-487E-9189-9F3E39BA22A0-
+
+CCpHeader IosAppCheck-iPhone/IosAppCheck-iPhone.h DerivedData/IosAppCheck-iPhone/Build/Products/Debug-iphonesimulator/usr/local/include/IosAppCheck-iPhone.h
+s395952536.137606
+e395952536.139599
+r1
+xCpHeader
+xIosAppCheck-iPhone/IosAppCheck-iPhone.h
+xDerivedData/IosAppCheck-iPhone/Build/Products/Debug-iphonesimulator/usr/local/include/IosAppCheck-iPhone.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Copy DerivedData/IosAppCheck-iPhone/Build/Products/Debug-iphonesimulator/usr/local/include/IosAppCheck-iPhone.hb6472398c199b741^d3bc2398c199b741^---0#0#0#-19%DVTDocumentLocation2@187"file://localhost/Users/reason/Desktop/iOS%20Security%20Module/IosAppCheck-iPhone/DerivedData/IosAppCheck-iPhone/Build/Products/Debug-iphonesimulator/usr/local/include/IosAppCheck-iPhone.h000000000080d041^911"CpHeader IosAppCheck-iPhone/IosAppCheck-iPhone.h DerivedData/IosAppCheck-iPhone/Build/Products/Debug-iphonesimulator/usr/local/include/IosAppCheck-iPhone.h    cd "/Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks "/Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone/IosAppCheck-iPhone/IosAppCheck-iPhone.h" "/Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone/DerivedData/IosAppCheck-iPhone/Build/Products/Debug-iphonesimulator/usr/local/include"36"7F7BF330-5C2A-4161-BABD-563E905D68CA-
+
+CLibtool "/Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone/DerivedData/IosAppCheck-iPhone/Build/Products/Debug-iphonesimulator/libIosAppCheck-iPhone.a" normal i386
+s395952536.123682
+e395952536.129290
+r1
+xLibtool
+x/Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone/DerivedData/IosAppCheck-iPhone/Build/Products/Debug-iphonesimulator/libIosAppCheck-iPhone.a
+xnormal
+xi386
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Libtool DerivedData/IosAppCheck-iPhone/Build/Products/Debug-iphonesimulator/libIosAppCheck-iPhone.a normal i386feba1f98c199b741^69192198c199b741^-159"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#0#--1280"Libtool DerivedData/IosAppCheck-iPhone/Build/Products/Debug-iphonesimulator/libIosAppCheck-iPhone.a normal i386    cd "/Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk "-L/Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone/DerivedData/IosAppCheck-iPhone/Build/Products/Debug-iphonesimulator" "-L/Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone" -filelist "/Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone/DerivedData/IosAppCheck-iPhone/Build/Intermediates/IosAppCheck-iPhone.build/Debug-iphonesimulator/IosAppCheck-iPhone.build/Objects-normal/i386/IosAppCheck-iPhone.LinkFileList" -ObjC -o "/Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone/DerivedData/IosAppCheck-iPhone/Build/Products/Debug-iphonesimulator/libIosAppCheck-iPhone.a"36"D0E2BAA7-93C3-4E8F-8B36-73099A24D9E1-
+
+CProcessPCH "/Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone/DerivedData/IosAppCheck-iPhone/Build/Intermediates/PrecompiledHeaders/IosAppCheck-iPhone-Prefix-hlajmhlcfjgezlchivrstjsxyipd/IosAppCheck-iPhone-Prefix.pch.gch" IosAppCheck-iPhone/IosAppCheck-iPhone-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+s395952535.734942
+e395952535.982669
+r1
+xProcessPCH
+x/Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone/DerivedData/IosAppCheck-iPhone/Build/Intermediates/PrecompiledHeaders/IosAppCheck-iPhone-Prefix-hlajmhlcfjgezlchivrstjsxyipd/IosAppCheck-iPhone-Prefix.pch.gch
+xIosAppCheck-iPhone/IosAppCheck-iPhone-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Precompile IosAppCheck-iPhone/IosAppCheck-iPhone-Prefix.pchb33fbc97c199b741^e38efb97c199b741^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/reason/Desktop/iOS%20Security%20Module/IosAppCheck-iPhone/IosAppCheck-iPhone/IosAppCheck-iPhone-Prefix.pch0000000000000000^3347"ProcessPCH DerivedData/IosAppCheck-iPhone/Build/Intermediates/PrecompiledHeaders/IosAppCheck-iPhone-Prefix-hlajmhlcfjgezlchivrstjsxyipd/IosAppCheck-iPhone-Prefix.pch.gch IosAppCheck-iPhone/IosAppCheck-iPhone-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42    cd "/Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone/DerivedData/IosAppCheck-iPhone/Build/Intermediates/IosAppCheck-iPhone.build/Debug-iphonesimulator/IosAppCheck-iPhone.build/IosAppCheck-iPhone-generated-files.hmap" "-I/Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone/DerivedData/IosAppCheck-iPhone/Build/Intermediates/IosAppCheck-iPhone.build/Debug-iphonesimulator/IosAppCheck-iPhone.build/IosAppCheck-iPhone-own-target-headers.hmap" "-I/Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone/DerivedData/IosAppCheck-iPhone/Build/Intermediates/IosAppCheck-iPhone.build/Debug-iphonesimulator/IosAppCheck-iPhone.build/IosAppCheck-iPhone-all-target-headers.hmap" -iquote "/Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone/DerivedData/IosAppCheck-iPhone/Build/Intermediates/IosAppCheck-iPhone.build/Debug-iphonesimulator/IosAppCheck-iPhone.build/IosAppCheck-iPhone-project-headers.hmap" "-I/Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone/DerivedData/IosAppCheck-iPhone/Build/Products/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone/DerivedData/IosAppCheck-iPhone/Build/Intermediates/IosAppCheck-iPhone.build/Debug-iphonesimulator/IosAppCheck-iPhone.build/DerivedSources/i386" "-I/Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone/DerivedData/IosAppCheck-iPhone/Build/Intermediates/IosAppCheck-iPhone.build/Debug-iphonesimulator/IosAppCheck-iPhone.build/DerivedSources" "-F/Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone/DerivedData/IosAppCheck-iPhone/Build/Products/Debug-iphonesimulator" -c "/Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone/IosAppCheck-iPhone/IosAppCheck-iPhone-Prefix.pch" -o "/Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone/DerivedData/IosAppCheck-iPhone/Build/Intermediates/PrecompiledHeaders/IosAppCheck-iPhone-Prefix-hlajmhlcfjgezlchivrstjsxyipd/IosAppCheck-iPhone-Prefix.pch.gch"36"E38E12DC-9068-4C8D-8D22-92F17CEDE0B1-
+
+CProcessPCH "/Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone/DerivedData/IosAppCheck-iPhone/Index/PrecompiledHeaders/IosAppCheck-iPhone-Prefix-cyzpogxywinbkydjdkkdvczbsktf_ast/IosAppCheck-iPhone-Prefix.pch.pth" IosAppCheck-iPhone/IosAppCheck-iPhone-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CStrip "/Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone/DerivedData/IosAppCheck-iPhone/Build/Products/Debug-iphonesimulator/libIosAppCheck-iPhone.a"
+s395952536.147622
+e395952536.159630
+r1
+xStrip
+x/Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone/DerivedData/IosAppCheck-iPhone/Build/Products/Debug-iphonesimulator/libIosAppCheck-iPhone.a
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Strip DerivedData/IosAppCheck-iPhone/Build/Products/Debug-iphonesimulator/libIosAppCheck-iPhone.a49da2598c199b741^72dd2898c199b741^---0#0#0#-19%DVTDocumentLocation2@172"file://localhost/Users/reason/Desktop/iOS%20Security%20Module/IosAppCheck-iPhone/DerivedData/IosAppCheck-iPhone/Build/Products/Debug-iphonesimulator/libIosAppCheck-iPhone.a0000000000000000^618"Strip DerivedData/IosAppCheck-iPhone/Build/Products/Debug-iphonesimulator/libIosAppCheck-iPhone.a    cd "/Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -S "/Users/reason/Desktop/iOS Security Module/IosAppCheck-iPhone/DerivedData/IosAppCheck-iPhone/Build/Products/Debug-iphonesimulator/libIosAppCheck-iPhone.a"36"2BB07D7B-0794-4688-BCAA-F3A63E8F7DFB-
+
